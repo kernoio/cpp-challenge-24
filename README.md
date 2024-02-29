@@ -47,3 +47,6 @@ It contains a little go binary for linux (run it in a non-privileged docker plea
 ```bash
 $ ./message-generator | ./your-program
 ```
+
+### Deliverable
+Please be kind to provide Dockerfile(s) to build and and test your code... setting C++ environments can be a bit painful and we have a lot of applications to review!
