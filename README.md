@@ -37,7 +37,9 @@ We do favor CLANG and BAZEL for most things -- but feel free to use whatever sui
 
 
 ### Why THIS challenge?
-Although algos and binary searches and whatnot are important in life... part of your job will be figuring out protocols and building highly efficient data transformation pipelines in resource constrained environments... so it will look a bit (likely quite more complex tho) like this challenge... but this is just a conversation starter.
+Although algos and binary searches and whatnot are important in life... part of your job will be figuring out protocols and building highly efficient data transformation pipelines in resource constrained environments... so it will look a bit (likely quite more complex tho) like this challenge.
+
+Was this too easy?... no worries... this is just a conversation starter.
 
 
 ## Clone this project to get started!
