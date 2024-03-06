@@ -14,7 +14,7 @@ We place great value in education and experience; but we also recognize that tal
 
 
 ## The challenge:
-Write a C++ (linux) program that receives a stream of http "messages" (both inbound and outbound) via unix pipe.
+Write a C++ (linux) program "processor" that receives a stream of http "messages" (both inbound and outbound) via unix pipe.
 The program maintains a minute by minute aggregation map by **request path** and **response code** dimensions.
 Messages will not be ordered (you can receive 4 requests in a row, and subsequent responses), so you need to find a means to correlate them.
 Every minute the map should be printed to a file indicated by the `-o <filepath>` argument received by your program.
@@ -45,7 +45,7 @@ Was this too easy?... no worries... this is just a conversation starter.
 ## Clone this project to get started!
 It contains a little go binary for linux (run it in a non-privileged docker please) that you can use to get the messages streaming:
 ```bash
-$ ./message-generator | ./your-program
+$ ./generator | ./processor
 ```
 
 ### Deliverable
