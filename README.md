@@ -41,6 +41,8 @@ Although algos and binary searches and whatnot are important in life... part of 
 
 Was this too easy?... no worries... this is just a conversation starter.
 
+Also, do not shy away from expanding the functionality as you see fit -- this is a conversation started to discuss your code and technical decisions during our technical interview! Go and shine 😉
+
 
 ## Clone this project to get started!
 It contains a little message generator binary for linux (run it in a non-privileged docker please) that you can use to get the messages streaming -- mind that you need an x86 arch host:
