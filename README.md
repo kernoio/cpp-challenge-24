@@ -43,7 +43,7 @@ Was this too easy?... no worries... this is just a conversation starter.
 
 
 ## Clone this project to get started!
-It contains a little go binary for linux (run it in a non-privileged docker please) that you can use to get the messages streaming:
+It contains a little message generator binary for linux (run it in a non-privileged docker please) that you can use to get the messages streaming -- mind that you need an x86 arch host:
 ```bash
 $ ./generator | ./processor
 ```
